@@ -1,0 +1,39 @@
+Name: Litao Chen
+e-mail: litao.chen@outlook.com
+Created on: Jul.18, 2017
+
+1. 
+	- a: Assist anglers to decide when and where to go for fishing based on history data
+
+	- b: Record the fish pictures on catching and query metaData like temperature, time, 
+	    tide and location. Build up a database of historical catching and suggest the location and time for fishing
+
+	- c: Record you catching and help you improve fishing skill by priactial data
+
+	- d:  access phone's camera and album; 
+		show maps on the screen and bookmark loactions; 
+		internet data access and JSON data parsing;
+		Sorting and basic statistics
+
+	- e: Make the app community-based tool so everyone can contribute to and obtain data from it.
+	    It will allow you to learn from other's experience and even make it a good social App for anglers.
+
+2.	- MapKit; 
+	- Social Media intergration; 
+	- Persistence / web storage techniques; 
+
+3. 
+	- Navigation: It will be a multi-screen app. User will see a map with bookmarks of catching history and have buttons to
+	  bring them to the suggestion page and camera / detail editting page. UINavigation will be essential
+	- Persistence: The app will keep the fish picture and other metadata from internent or the phone for future recommendation.
+	- Background tasks off the main thread: The App will check the record completeness and try to access internet to get the data it needs.
+	  This will happen in the background automatically
+	- Custom views or images: Yes it will have Custom view to show the relavent info to users
+	- GPS: Yes location info is critical for every record in the database
+
+4.	- a: a data model to keep all the catching records, which consist of image, fish type, weight, location, weather, time, and tide, etc.
+	- b: few data models responsible for UI update 
+
+5. See the Xcode project files
+
+
